@@ -1,3 +1,7 @@
+-- blink for autocompletations
+blink = require("blink.cmp")
+
+-- lsp settings
 return {
   -- Command and arguments to start the server.
   cmd = { 'lua-language-server' },
@@ -25,5 +29,17 @@ return {
         globals = { 'vim' },
       },
     }
-  }
+  },
+ capabilities = vim.tbl_deep_extend(
+        "force",
+        {},
+        vim.lsp.protocol.make_client_capabilities(),
+        blink.get_lsp_capabilities(),
+        {
+            fileOperations = {
+                didRename = true,
+                willRename = true,
+            },
+        }
+    ),
 }

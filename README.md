@@ -9,21 +9,34 @@
 
 - **Plugin Management**: Easy integration with popular plugins using [LazyVim](https://github.com/folke/lazy.nvim)
 
-- [ ] Todo
-- **Syntax Highlighting**: Enhanced syntax highlighting for various programming languages, making your code more readable.
+- **Theming**: Beautiful color scheme tokyonight by folkie and lazyvim
 
-- [ ] Todo
-- **Custom Keybindings**: Intuitive keybindings that improve navigation and editing efficiency.
+- **Installed plugins**
+   - blink.cmp made with rust to fast completations.
+   - Mason to manage, install and remove LSP, formatting and DAPs.
+   - wich_key to help show which key sequeced was typed.
+   - tree-sitter to enhance textobjects ?
 
-- [ ] Todo
-- **Theming**: Beautiful color schemes to enhance your coding environment.
+- **LSP**
+   - Python ?
+   - toml ?
+   - lua_ls
+   - rust-analyzer
+   - json ?
+
+
+## 📦 Requirements 
+- Nerdfont installed
 
 ## 📦 Installation
 
 To get started with your fresh Neovim setup, follow these simple steps:
 
-1. **Clone the Repository**:
+- **Clone the Repository**:
+
    ```bash
-   git clone https://github.com/smrenato/smrenato.nvim.git ~/.config/nvim
-   rm -rf ~/.config/nvim/.git
+   $ git clone https://github.com/smrenato/smrenato.nvim.git ~/.config/nvim # clone the repo
+
+   $ rm -rf ~/.config/nvim/.git # remove git 
+
    ```
