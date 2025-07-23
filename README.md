@@ -13,10 +13,16 @@
 
 - ✅ **Installed plugins**
 
-   - [X] lazy.nvim
-   - [ ] kanagawa.nvim
-   - [ ] mini.statusline
-   - [ ] oil.nvim
+   - [X] lazy.nvim -> package manager to install plugins
+   - [X] kanagawa.nvim -> colorscheme to work with tree-sitter
+   - [ ] mini.nvim -> plugins library collection
+      - [X] mini.statusline 
+      - [X] mini.pairs - auto pairs for bracktes and quotes
+      - [X] mini.icons - better file icons
+      - [ ] mini.ai - text objects ['a', 'i']
+      - [ ] mini.surrounding - edit surroundings
+   - [X] oil.nvim -> Modern file explorer
+   - [X] persistence.nvim  -> Save and restore sessions
    - [ ] Basic options
    - [ ] vim-sleuth
    - [ ] editorconf
@@ -38,6 +44,10 @@
    - [ ] Rust
    - [ ] SQL
 
+- ✅ **Additional Configurations**
+  - [ ] autocmds
+  - [ ] options
+  - [ ] keymaps
 
 
 ## 📦 Requirements 
@@ -52,14 +62,14 @@ To start using just download it to yout nvim path, or use NVIM_APPNAME="current_
 
 - **Clone the Repository**:
 
-   ```bash
-   # Backuo your current config first
-   $ mv ~/.config/nvim ~/.config/nvim.bkp
+```bash
+# Backuo your current config first
+$ mv ~/.config/nvim ~/.config/nvim.bkp
 
-   # Dowload and install
-   $ git clone https://github.com/smrenato/smrenato.nvim.git ~/.config/nvim # clone the repo
+# Dowload and install
+$ git clone https://github.com/smrenato/smrenato.nvim.git ~/.config/nvim # clone the repo
 
-   # Remove git repositorie
-   $ rm -rf ~/.config/nvim/.git # remove git 
+# Remove git repositorie
+$ rm -rf ~/.config/nvim/.git # remove git 
 
-   ```
+```
