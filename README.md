@@ -1,42 +1,65 @@
-### smrenato.nvim fresh start Configurations 🌟
+### Neovim simple configurations 🌟
 
 
 ## 🚀 Features
 
-- **Minimalist Design**: A clean and simple configuration that focuses on productivity without unnecessary clutter.
+- 📦 **Plugin Management**
+   - Easy integration with popular plugins using [lazy.vim](https://github.com/folke/lazy.nvim)
 
-- **Performance Optimized**: Fast startup times and responsive editing experience.
+- 🌃 **Theming** 
+   - 🌈 Beautiful color scheme [Kanagawa](https://github.com/rebelot/kanagawa.nvim). 
 
-- **Plugin Management**: Easy integration with popular plugins using [LazyVim](https://github.com/folke/lazy.nvim)
+   - 🌃 Tokyonight by folkie. 
 
-- **Theming**: Beautiful color scheme tokyonight by folkie and lazyvim
+- ✅ **Installed plugins**
 
-- **Installed plugins**
-   - blink.cmp made with rust to fast completations.
-   - Mason to manage, install and remove LSP, formatting and DAPs.
-   - wich_key to help show which key sequeced was typed.
-   - tree-sitter to enhance textobjects ?
+   - [X] lazy.nvim
+   - [ ] kanagawa.nvim
+   - [ ] mini.statusline
+   - [ ] oil.nvim
+   - [ ] Basic options
+   - [ ] vim-sleuth
+   - [ ] editorconf
+   - [ ] showkeys
+   - [ ] treesitter.nvim
+   - [ ] treesitter-textobjects
+   - [ ] which-key
+   - [ ] fzflua
+   - [ ] project.nvim
+   - [ ] LSP
+   - [ ] Mason
+   - [ ] dressing.nvim
+   - [ ] conform.nvim
+   - [ ] blink-cmp
 
-- **LSP**
-   - Python ?
-   - toml ?
-   - lua_ls
-   - rust-analyzer
-   - json ?
+
+- ✅ **Language Server Protocols**
+   - [ ] Python
+   - [ ] Rust
+   - [ ] SQL
+
 
 
 ## 📦 Requirements 
-- Nerdfont installed
+- Neovim 0.11*
+- luarocks and lua
+- Nerdfont with icons installed.
+- 
 
 ## 📦 Installation
 
-To get started with your fresh Neovim setup, follow these simple steps:
+To start using just download it to yout nvim path, or use NVIM_APPNAME="current_conf"
 
 - **Clone the Repository**:
 
    ```bash
+   # Backuo your current config first
+   $ mv ~/.config/nvim ~/.config/nvim.bkp
+
+   # Dowload and install
    $ git clone https://github.com/smrenato/smrenato.nvim.git ~/.config/nvim # clone the repo
 
+   # Remove git repositorie
    $ rm -rf ~/.config/nvim/.git # remove git 
 
    ```
