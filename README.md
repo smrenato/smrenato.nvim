@@ -15,7 +15,7 @@
 
    - [X] lazy.nvim -> package manager to install plugins
    - [X] kanagawa.nvim -> colorscheme to work with tree-sitter
-   - [ ] mini.nvim -> plugins library collection
+   - [?] mini.nvim -> plugins library collection
       - [X] mini.statusline 
       - [X] mini.pairs - auto pairs for bracktes and quotes
       - [X] mini.icons - better file icons
@@ -23,13 +23,12 @@
       - [ ] mini.surrounding - edit surroundings
    - [X] oil.nvim -> Modern file explorer
    - [X] persistence.nvim  -> Save and restore sessions
-   - [ ] Basic options
-   - [ ] vim-sleuth
-   - [ ] editorconf
-   - [ ] showkeys
-   - [ ] treesitter.nvim
-   - [ ] treesitter-textobjects
-   - [ ] which-key
+   - [X] Basic options
+   - [?] editorconf
+   - [X] showkeys
+   - [X] treesitter.nvim ** will change in the future** 
+   - [X] treesitter-textobjects
+   - [X] which-key
    - [ ] fzflua
    - [ ] project.nvim
    - [ ] LSP
@@ -54,7 +53,7 @@
 - Neovim 0.11*
 - luarocks and lua
 - Nerdfont with icons installed.
-- 
+- tree-sitter-cli
 
 ## 📦 Installation
 
