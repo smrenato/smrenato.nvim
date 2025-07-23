@@ -1,4 +1,7 @@
-return {
+-- Tree-sitter from [Nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+-- ! Warning it will be deprecated soon
+
+return 
     {
         "nvim-treesitter/nvim-treesitter",
         version = false,
@@ -18,46 +21,37 @@ return {
                 indent = { enable = true },
                 auto_install = true,
                 ensure_installed = {
-                    "bash",
-                    "c",
-                    "html",
-                    "javascript",
-                    "json",
                     "lua",
-                    "luadoc",
-                    "luap",
-                    "markdown",
-                    "markdown_inline",
-                    "python",
-                    "query",
-                    "regex",
-                    "tsx",
-                    "typescript",
-                    "vue",
                     "vim",
                     "vimdoc",
-                    "yaml",
+                    "query",
+                    "bash",
+                    "c",
+                    "lua",
+                    "luadoc",
                     "rust",
-                    "go",
-                    "gomod",
-                    "gowork",
-                    "gosum",
-                    "terraform",
-                    "proto",
-                    "zig",
-                    "php",
-                    "blade",
+                    "python",
+                    "sql",
+                    "yaml",
+                    "toml",
+                    "markdown",
+                    "html",
+                    "json",
                 },
                 incremental_selection = {
                     enable = true,
                     keymaps = {
-                        init_selection = "<leader>vv",
-                        node_incremental = "+",
+                        init_selection = "<Enter>",
+                        node_incremental = "<Enter>",
                         scope_incremental = false,
-                        node_decremental = "_",
+                        node_decremental = "<Backspace>",
                     },
                 },
+
+                -- text objects settigs 
                 textobjects = {
+
+                    -- selections
                     select = {
                         enable = true,
                         lookahead = true,
@@ -86,6 +80,8 @@ return {
                         },
                         include_surrounding_whitespace = false,
                     },
+
+                    -- move and jumps
                     move = {
                         enable = true,
                         set_jumps = true, -- whether to set jumps in the jumplist
@@ -100,6 +96,8 @@ return {
                             ["]p"] = { query = "@parameter.inner", desc = "Next parameter" },
                         },
                     },
+
+                    -- swap paramenter
                     swap = {
                         enable = true,
                         swap_next = {
@@ -112,5 +110,5 @@ return {
                 },
             })
         end,
-    },
-}
+    }
+
