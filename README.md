@@ -16,7 +16,7 @@
 
    - [X] lazy.nvim -> package manager to install plugins
    - [X] kanagawa.nvim -> colorscheme to work with tree-sitter
-   - [?] mini.nvim -> plugins library collection
+   - [X] mini.nvim -> plugins library collection
       - [X] mini.statusline 
       - [X] mini.pairs - auto pairs for bracktes and quotes
       - [X] mini.icons - better file icons
@@ -24,31 +24,58 @@
       - [ ] mini.surrounding - edit surroundings
    - [X] oil.nvim -> Modern file explorer
    - [X] persistence.nvim  -> Save and restore sessions
-   - [ ] indent-blank-lines identation guides 
+   - [X] indent-blank-lines -> identation guides 
+   - [ ] guess-indent -> indentations style
    - [X] showkeys
    - [X] treesitter.nvim ** will change in the future** 
    - [X] treesitter-textobjects
-   - [X] which-key
-   - [ ] fzf-lua
-   - [ ] project.nvim
-   - [ ] LSP
-   - [ ] Mason
+   - [X] which-key -> show keys when we press it
+   - [X] fzf-lua -> blazingly faster fuzzy finder wrapper of fzf
+   - [X] project.nvim
+   - [X] Mason -> Easily install and manage LSP's, DAP's, linters, and formatters.
+   - [ ] LSP -> setup using neovim 0.11*
+       - [ ] lua-ls -> lua lsp
+       - [ ] ruff -> python lsp
+       - [ ] rust-analyzer -> rust lsp
+       - [ ]
+
    - [ ] dressing.nvim
    - [ ] conform.nvim
    - [ ] blink-cmp
 
 
 - ✅ **Language Server Protocols**
-   - [ ] Python
-   - [ ] Rust
+   - [ ] Python -> ruff by astral
+   - [ ] Rust -> rust-analyzer by rust fundation
    - [ ] SQL
-   - [ ] Lua
+   - [ ] Lua -> lua-ls
 
 - ✅ **Additional Configurations**
-  - [ ] autocmds
-  - [ ] options
-  - [ ] keymaps
-  - [ ] editorconf
+
+  - [ ] Autocmds
+      - [X] Highlight on Yank
+      - [X] Enable auto completion on lsp attatch
+  - [X] Options
+  - [ ] Editorconf
+
+- ⌨️**Keymaps**
+    - helpful and lexical keymaps
+    - leader key <leader> was set to Space: <leader>[key]
+
+    - [f] find something
+        - [f] find files
+
+    - [b] related to buffers
+        - [d] buffer delete, delete current buffer
+        - [o] delete all buffers except the current
+
+    - [w] manage widow
+       - [d] delete current window
+
+    - [s] Sessions
+    - [c] Code
+        - [l] lsp
+        - [f] format
 
 
 ## 📦 Requirements

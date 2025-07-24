@@ -2,12 +2,17 @@
 vim.opt.cmdheight = 0
 
 -- Fix markdown indentation settings
-vim.g.markdown_recommended_style = 0
+-- vim.g.markdown_recommended_style = 0
 
 -- Clipboard register to work with system '*' and '+'
-vim.opt.clipboard = "unnamedplus"
+vim.schedule(function()
+    vim.o.clipboard = "unnamedplus"
+end)
 
+-- Enable rounded border for floating windows
+-- vim.o.winborder = "rounded"
 
+-- tabs
 vim.opt.expandtab = true -- Convert tabs to spaces
 vim.opt.shiftwidth = 4   -- Amount to indent with << and >>
 vim.opt.tabstop = 4      -- How many spaces are shown per Tab
