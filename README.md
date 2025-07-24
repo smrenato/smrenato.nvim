@@ -16,7 +16,7 @@
 
    - [X] lazy.nvim -> package manager to install plugins
    - [X] kanagawa.nvim -> colorscheme to work with tree-sitter
-   - [?] mini.nvim -> plugins library collection
+   - [X] mini.nvim -> plugins library collection
       - [X] mini.statusline 
       - [X] mini.pairs - auto pairs for bracktes and quotes
       - [X] mini.icons - better file icons
@@ -24,31 +24,39 @@
       - [ ] mini.surrounding - edit surroundings
    - [X] oil.nvim -> Modern file explorer
    - [X] persistence.nvim  -> Save and restore sessions
-   - [ ] indent-blank-lines identation guides 
+   - [X] indent-blank-lines -> identation guides 
+   - [ ] guess-indent -> indentations style
    - [X] showkeys
    - [X] treesitter.nvim ** will change in the future** 
    - [X] treesitter-textobjects
-   - [X] which-key
-   - [ ] fzf-lua
+   - [X] which-key -> show keys when we press it
+   - [ ] fzf-lua -> blazingly faster fuzzy finder wrapper of fzf
    - [ ] project.nvim
-   - [ ] LSP
-   - [ ] Mason
+   - [ ] LSP -> setup using neovim 0.11*
+       - [ ] lua-ls -> lua lsp
+       - [ ] ruff -> python lsp
+       - [ ] rust-analyzer -> rust lsp
+       - [ ]
+
+   - [ ] Mason 
    - [ ] dressing.nvim
    - [ ] conform.nvim
    - [ ] blink-cmp
 
 
 - ✅ **Language Server Protocols**
-   - [ ] Python
-   - [ ] Rust
+   - [ ] Python -> ruff by astral
+   - [ ] Rust -> rust-analyzer by rust fundation
    - [ ] SQL
-   - [ ] Lua
+   - [ ] Lua -> lua-ls
 
 - ✅ **Additional Configurations**
-  - [ ] autocmds
-  - [ ] options
-  - [ ] keymaps
-  - [ ] editorconf
+
+  - [ ] Autocmds
+      - [X] Highlight on Yank
+  - [X] Options
+  - [ ] Keymaps -> inspired by lazyVim distro
+  - [ ] Editorconf
 
 
 ## 📦 Requirements
