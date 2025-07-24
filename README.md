@@ -30,15 +30,15 @@
    - [X] treesitter.nvim ** will change in the future** 
    - [X] treesitter-textobjects
    - [X] which-key -> show keys when we press it
-   - [ ] fzf-lua -> blazingly faster fuzzy finder wrapper of fzf
-   - [ ] project.nvim
+   - [X] fzf-lua -> blazingly faster fuzzy finder wrapper of fzf
+   - [X] project.nvim
+   - [ ] Mason -> Easily install and manage LSP's, DAP's, linters, and formatters.
    - [ ] LSP -> setup using neovim 0.11*
        - [ ] lua-ls -> lua lsp
        - [ ] ruff -> python lsp
        - [ ] rust-analyzer -> rust lsp
        - [ ]
 
-   - [ ] Mason 
    - [ ] dressing.nvim
    - [ ] conform.nvim
    - [ ] blink-cmp
@@ -54,9 +54,28 @@
 
   - [ ] Autocmds
       - [X] Highlight on Yank
+      - [X] Enable auto completion on lsp attatch
   - [X] Options
-  - [ ] Keymaps -> inspired by lazyVim distro
   - [ ] Editorconf
+
+- ⌨️**Keymaps**
+    - helpful and lexical keymaps
+    - leader key <leader> was set to Space: <leader>[key]
+
+    - [f] find something
+        - [f] find files
+
+    - [b] related to buffers
+        - [d] buffer delete, delete current buffer
+        - [o] delete all buffers except the current
+
+    - [w] manage widow
+       - [d] delete current window
+
+    - [s] Sessions
+    - [c] Code
+        - [l] lsp
+        - [f] format
 
 
 ## 📦 Requirements
