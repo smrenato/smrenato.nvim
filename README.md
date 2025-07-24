@@ -7,9 +7,10 @@
    - Easy integration with popular plugins using [lazy.vim](https://github.com/folke/lazy.nvim)
 
 - 🌃 **Theming** 
-   - 🌈 Beautiful color scheme [Kanagawa](https://github.com/rebelot/kanagawa.nvim). 
 
-   - 🌃 Tokyonight by folkie. 
+   - 🌇[Kanagawa](https://github.com/rebelot/kanagawa.nvim) beautiful colorscheme. 
+
+   - 🌃[Tokyonight](https://github.com/folke/tokyonight.nvim) by folkie.
 
 - ✅ **Installed plugins**
 
@@ -23,13 +24,12 @@
       - [ ] mini.surrounding - edit surroundings
    - [X] oil.nvim -> Modern file explorer
    - [X] persistence.nvim  -> Save and restore sessions
-   - [X] Basic options
-   - [?] editorconf
+   - [ ] indent-blank-lines identation guides 
    - [X] showkeys
    - [X] treesitter.nvim ** will change in the future** 
    - [X] treesitter-textobjects
    - [X] which-key
-   - [ ] fzflua
+   - [ ] fzf-lua
    - [ ] project.nvim
    - [ ] LSP
    - [ ] Mason
@@ -42,33 +42,36 @@
    - [ ] Python
    - [ ] Rust
    - [ ] SQL
+   - [ ] Lua
 
 - ✅ **Additional Configurations**
   - [ ] autocmds
   - [ ] options
   - [ ] keymaps
+  - [ ] editorconf
 
 
-## 📦 Requirements 
+## 📦 Requirements
 - Neovim 0.11*
 - luarocks and lua
-- Nerdfont with icons installed.
+- Nerdfont
 - tree-sitter-cli
+- Cargo and Rust toolkits
+- fzf, bat, fd-fider, ripgrep
 
 ## 📦 Installation
 
-To start using just download it to yout nvim path, or use NVIM_APPNAME="current_conf"
+To start using just download it to your nvim path, or use NVIM_APPNAME="new_config"
 
 - **Clone the Repository**:
 
 ```bash
-# Backuo your current config first
+# Backup your current config
 $ mv ~/.config/nvim ~/.config/nvim.bkp
 
 # Dowload and install
 $ git clone https://github.com/smrenato/smrenato.nvim.git ~/.config/nvim # clone the repo
 
-# Remove git repositorie
+# Remove .git
 $ rm -rf ~/.config/nvim/.git # remove git 
-
 ```
