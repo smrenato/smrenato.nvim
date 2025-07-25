@@ -32,7 +32,7 @@
    - [X] which-key -> show keys when we press it
    - [X] fzf-lua -> blazingly faster fuzzy finder wrapper of fzf
    - [X] project.nvim
-   - [X] Mason -> Easily install and manage LSP's, DAP's, linters, and formatters.
+   - [ ] Mason -> Easily install and manage LSP's, DAP's, linters, and formatters.
    - [ ] LSP -> setup using neovim 0.11*
        - [ ] lua-ls -> lua lsp
        - [ ] ruff -> python lsp
