@@ -1,22 +1,23 @@
 -- Disable command line util it is needed. This give us a clear look
-vim.opt.cmdheight = 0
+-- vim.opt.cmdheight = 0
 
 -- Fix markdown indentation settings
 -- vim.g.markdown_recommended_style = 0
 
 -- Clipboard register to work with system '*' and '+'
 vim.schedule(function()
-    vim.o.clipboard = "unnamedplus"
+  vim.o.clipboard = 'unnamedplus'
 end)
 
 -- Enable rounded border for floating windows
 -- vim.o.winborder = "rounded"
 
+vim.opt.spelllang = { 'en', 'pt_br' } --spelling language
 -- tabs
 vim.opt.expandtab = true -- Convert tabs to spaces
-vim.opt.shiftwidth = 4   -- Amount to indent with << and >>
-vim.opt.tabstop = 4      -- How many spaces are shown per Tab
-vim.opt.softtabstop = 4  -- How many spaces are applied when pressing Tab
+vim.opt.shiftwidth = 4 -- Amount to indent with << and >>
+vim.opt.tabstop = 4 -- How many spaces are shown per Tab
+vim.opt.softtabstop = 4 -- How many spaces are applied when pressing Tab
 
 vim.opt.smarttab = true
 vim.opt.smartindent = true
@@ -36,7 +37,7 @@ vim.opt.cursorline = true
 vim.opt.undofile = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
-vim.opt.mouse = "a"
+vim.opt.mouse = 'a'
 
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
@@ -46,7 +47,7 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 -- Keep signcolumn on by default
-vim.opt.signcolumn = "yes"
+vim.opt.signcolumn = 'yes'
 
 -- Configure how new splits should be opened
 vim.opt.splitright = true
@@ -56,7 +57,7 @@ vim.opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 -- Minimal number of screen lines to keep above and below the cursor.
 -- vim.opt.scrolloff = 5

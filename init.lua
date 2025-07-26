@@ -1,5 +1,10 @@
--- Init lazy.vim 
-require("config.lazy")
+-- make sure mason will finde executable correctly
+require('core.mason-path')
+require('config.mason-verify')
+-- require("config.health-check")
 
--- init lsp
-require("config.lsp")
+-- Init lazy.vim
+require('config.lazy')
+
+-- ensure all lsp are installed before starting
+require('core.lsp')

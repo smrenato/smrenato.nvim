@@ -1,3 +1,5 @@
+-- lua ls setup
+
 return {
   -- Command and arguments to start the server.
   cmd = { 'lua-language-server' },
@@ -24,6 +26,6 @@ return {
         -- Get the language server to recognize the `vim` global
         globals = { 'vim' },
       },
-    }
-  }
+    },
+  },
 }

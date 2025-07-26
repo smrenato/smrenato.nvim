@@ -33,15 +33,18 @@
    - [X] fzf-lua -> blazingly faster fuzzy finder wrapper of fzf
    - [X] project.nvim
    - [ ] Mason -> Easily install and manage LSP's, DAP's, linters, and formatters.
+        - configs from adibhanna/nvim 
+        - need additional configs
+
    - [ ] LSP -> setup using neovim 0.11*
-       - [ ] lua-ls -> lua lsp
+       - [X] lua-ls -> lua lsp
        - [ ] ruff -> python lsp
-       - [ ] rust-analyzer -> rust lsp
+       - [X] rust-analyzer -> rust lsp
        - [ ]
 
    - [ ] dressing.nvim
-   - [ ] conform.nvim
-   - [ ] blink-cmp
+   - [X] conform.nvim
+   - [X] blink-cmp
 
 
 - ✅ **Language Server Protocols**
